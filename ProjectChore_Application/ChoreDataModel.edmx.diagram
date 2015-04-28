@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b3efd20356a04fc0b52c53265a73dff6" Name="Diagram1">
+        <EntityTypeShape EntityType="ProjectChoresDBModel.Chore" Width="1.5" PointX="1.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectChoresDBModel.ChoreLookUp" Width="1.5" PointX="4.125" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectChoresDBModel.Kid" Width="1.5" PointX="6.375" PointY="0.5" IsExpanded="true" />
+        <AssociationConnector Association="ProjectChoresDBModel.FK__ChoreLook__Chore__15502E78" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectChoresDBModel.FK__ChoreLook__KidId__145C0A3F" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

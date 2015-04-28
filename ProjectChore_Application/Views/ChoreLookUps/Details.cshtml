@@ -1,0 +1,58 @@
+﻿@model ProjectChore_Application.ChoreLookUp
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ChoreLookUp</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DateCompleted)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateCompleted)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateAssigned)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateAssigned)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Active)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Active)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Chore.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Chore.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Kid.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kid.FirstName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ChoreLookUpId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

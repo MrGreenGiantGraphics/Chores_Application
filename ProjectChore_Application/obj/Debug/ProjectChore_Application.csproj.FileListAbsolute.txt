@@ -1,0 +1,110 @@
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\ProjectChore_Application.dll.config
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\ProjectChore_Application.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\ProjectChore_Application.pdb
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Antlr3.Runtime.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\EntityFramework.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\EntityFramework.SqlServer.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.AspNet.Identity.Core.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.Cookies.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.Facebook.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.Google.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.OAuth.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.Twitter.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Web.Infrastructure.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Newtonsoft.Json.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Owin.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.Helpers.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.Mvc.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.Optimization.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.Razor.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.WebPages.Deployment.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.WebPages.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.WebPages.Razor.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\WebGrease.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.Helpers.xml
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.Mvc.xml
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.Optimization.xml
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.Razor.xml
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.WebPages.xml
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.WebPages.Deployment.xml
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.WebPages.Razor.xml
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Antlr3.Runtime.pdb
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Newtonsoft.Json.xml
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\EntityFramework.xml
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\EntityFramework.SqlServer.xml
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.AspNet.Identity.Core.xml
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.xml
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.xml
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.Facebook.xml
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.Cookies.xml
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.OAuth.xml
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.Google.xml
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.Twitter.xml
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\obj\Debug\ProjectChore_Application.csprojResolveAssemblyReference.cache
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\obj\Debug\ProjectChore_Application.dll
+D:\DualFolder\GitHub and Visual Studios\Coder Camp learning Files\GITHUB\C# Portfolio\ProjectChore_Application\ProjectChore_Application\obj\Debug\ProjectChore_Application.pdb
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\ProjectChore_Application.dll.config
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\ProjectChore_Application.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\ProjectChore_Application.pdb
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Antlr3.Runtime.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\EntityFramework.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\EntityFramework.SqlServer.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.AspNet.Identity.Core.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.Cookies.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.Facebook.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.Google.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.OAuth.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.Twitter.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Web.Infrastructure.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Newtonsoft.Json.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Owin.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.Helpers.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.Mvc.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.Optimization.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.Razor.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.WebPages.Deployment.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.WebPages.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.WebPages.Razor.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\WebGrease.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.Helpers.xml
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.Mvc.xml
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.Optimization.xml
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.Razor.xml
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.WebPages.xml
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.WebPages.Deployment.xml
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\System.Web.WebPages.Razor.xml
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Antlr3.Runtime.pdb
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Newtonsoft.Json.xml
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\EntityFramework.xml
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\EntityFramework.SqlServer.xml
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.AspNet.Identity.Core.xml
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.xml
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.xml
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.Facebook.xml
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.Cookies.xml
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.OAuth.xml
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.Google.xml
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.Twitter.xml
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\obj\Debug\ProjectChore_Application.csprojResolveAssemblyReference.cache
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\obj\Debug\ProjectChore_Application.dll
+D:\DualFolder\GitHub_Studios\CCLF\GITHUB\CSharp_Portfolio\ProjectChore_Application\ProjectChore_Application\obj\Debug\ProjectChore_Application.pdb

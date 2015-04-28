@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProjectChoresDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Chore">
+    <Key>
+      <PropertyRef Name="ChoreId" />
+    </Key>
+    <Property Name="ChoreId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="125" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ChoreLookUp">
+    <Key>
+      <PropertyRef Name="ChoreLookUpId" />
+    </Key>
+    <Property Name="ChoreLookUpId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DateCompleted" Type="date" />
+    <Property Name="DateAssigned" Type="date" />
+    <Property Name="Active" Type="bit" />
+    <Property Name="KidId" Type="int" />
+    <Property Name="ChoreId" Type="int" />
+  </EntityType>
+  <EntityType Name="Kid">
+    <Key>
+      <PropertyRef Name="KidId" />
+    </Key>
+    <Property Name="KidId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="125" Nullable="false" />
+    <Property Name="LastName" Type="varchar" MaxLength="125" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__ChoreLook__Chore__15502E78">
+    <End Role="Chore" Type="Self.Chore" Multiplicity="0..1" />
+    <End Role="ChoreLookUp" Type="Self.ChoreLookUp" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Chore">
+        <PropertyRef Name="ChoreId" />
+      </Principal>
+      <Dependent Role="ChoreLookUp">
+        <PropertyRef Name="ChoreId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ChoreLook__KidId__145C0A3F">
+    <End Role="Kid" Type="Self.Kid" Multiplicity="0..1" />
+    <End Role="ChoreLookUp" Type="Self.ChoreLookUp" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kid">
+        <PropertyRef Name="KidId" />
+      </Principal>
+      <Dependent Role="ChoreLookUp">
+        <PropertyRef Name="KidId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProjectChoresDBModelStoreContainer">
+    <EntitySet Name="Chore" EntityType="Self.Chore" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ChoreLookUp" EntityType="Self.ChoreLookUp" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kid" EntityType="Self.Kid" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__ChoreLook__Chore__15502E78" Association="Self.FK__ChoreLook__Chore__15502E78">
+      <End Role="Chore" EntitySet="Chore" />
+      <End Role="ChoreLookUp" EntitySet="ChoreLookUp" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ChoreLook__KidId__145C0A3F" Association="Self.FK__ChoreLook__KidId__145C0A3F">
+      <End Role="Kid" EntitySet="Kid" />
+      <End Role="ChoreLookUp" EntitySet="ChoreLookUp" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

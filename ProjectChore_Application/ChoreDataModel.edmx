@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ProjectChoresDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Chore">
+          <Key>
+            <PropertyRef Name="ChoreId" />
+          </Key>
+          <Property Name="ChoreId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Description" Type="varchar" MaxLength="125" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ChoreLookUp">
+          <Key>
+            <PropertyRef Name="ChoreLookUpId" />
+          </Key>
+          <Property Name="ChoreLookUpId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DateCompleted" Type="date" />
+          <Property Name="DateAssigned" Type="date" />
+          <Property Name="Active" Type="bit" />
+          <Property Name="KidId" Type="int" />
+          <Property Name="ChoreId" Type="int" />
+        </EntityType>
+        <EntityType Name="Kid">
+          <Key>
+            <PropertyRef Name="KidId" />
+          </Key>
+          <Property Name="KidId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FirstName" Type="varchar" MaxLength="125" Nullable="false" />
+          <Property Name="LastName" Type="varchar" MaxLength="125" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__ChoreLook__Chore__15502E78">
+          <End Role="Chore" Type="Self.Chore" Multiplicity="0..1" />
+          <End Role="ChoreLookUp" Type="Self.ChoreLookUp" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Chore">
+              <PropertyRef Name="ChoreId" />
+            </Principal>
+            <Dependent Role="ChoreLookUp">
+              <PropertyRef Name="ChoreId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ChoreLook__KidId__145C0A3F">
+          <End Role="Kid" Type="Self.Kid" Multiplicity="0..1" />
+          <End Role="ChoreLookUp" Type="Self.ChoreLookUp" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kid">
+              <PropertyRef Name="KidId" />
+            </Principal>
+            <Dependent Role="ChoreLookUp">
+              <PropertyRef Name="KidId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ProjectChoresDBModelStoreContainer">
+          <EntitySet Name="Chore" EntityType="Self.Chore" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ChoreLookUp" EntityType="Self.ChoreLookUp" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Kid" EntityType="Self.Kid" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__ChoreLook__Chore__15502E78" Association="Self.FK__ChoreLook__Chore__15502E78">
+            <End Role="Chore" EntitySet="Chore" />
+            <End Role="ChoreLookUp" EntitySet="ChoreLookUp" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ChoreLook__KidId__145C0A3F" Association="Self.FK__ChoreLook__KidId__145C0A3F">
+            <End Role="Kid" EntitySet="Kid" />
+            <End Role="ChoreLookUp" EntitySet="ChoreLookUp" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ProjectChoresDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Chore">
+          <Key>
+            <PropertyRef Name="ChoreId" />
+          </Key>
+          <Property Name="ChoreId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Description" Type="String" MaxLength="125" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="ChoreLookUps" Relationship="Self.FK__ChoreLook__Chore__15502E78" FromRole="Chore" ToRole="ChoreLookUp" />
+        </EntityType>
+        <EntityType Name="ChoreLookUp">
+          <Key>
+            <PropertyRef Name="ChoreLookUpId" />
+          </Key>
+          <Property Name="ChoreLookUpId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DateCompleted" Type="DateTime" Precision="0" />
+          <Property Name="DateAssigned" Type="DateTime" Precision="0" />
+          <Property Name="Active" Type="Boolean" />
+          <Property Name="KidId" Type="Int32" />
+          <Property Name="ChoreId" Type="Int32" />
+          <NavigationProperty Name="Chore" Relationship="Self.FK__ChoreLook__Chore__15502E78" FromRole="ChoreLookUp" ToRole="Chore" />
+          <NavigationProperty Name="Kid" Relationship="Self.FK__ChoreLook__KidId__145C0A3F" FromRole="ChoreLookUp" ToRole="Kid" />
+        </EntityType>
+        <EntityType Name="Kid">
+          <Key>
+            <PropertyRef Name="KidId" />
+          </Key>
+          <Property Name="KidId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" MaxLength="125" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="LastName" Type="String" MaxLength="125" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="ChoreLookUps" Relationship="Self.FK__ChoreLook__KidId__145C0A3F" FromRole="Kid" ToRole="ChoreLookUp" />
+        </EntityType>
+        <Association Name="FK__ChoreLook__Chore__15502E78">
+          <End Role="Chore" Type="Self.Chore" Multiplicity="0..1" />
+          <End Role="ChoreLookUp" Type="Self.ChoreLookUp" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Chore">
+              <PropertyRef Name="ChoreId" />
+            </Principal>
+            <Dependent Role="ChoreLookUp">
+              <PropertyRef Name="ChoreId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ChoreLook__KidId__145C0A3F">
+          <End Role="Kid" Type="Self.Kid" Multiplicity="0..1" />
+          <End Role="ChoreLookUp" Type="Self.ChoreLookUp" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Kid">
+              <PropertyRef Name="KidId" />
+            </Principal>
+            <Dependent Role="ChoreLookUp">
+              <PropertyRef Name="KidId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ProjectChoresDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Chores" EntityType="Self.Chore" />
+          <EntitySet Name="ChoreLookUps" EntityType="Self.ChoreLookUp" />
+          <EntitySet Name="Kids" EntityType="Self.Kid" />
+          <AssociationSet Name="FK__ChoreLook__Chore__15502E78" Association="Self.FK__ChoreLook__Chore__15502E78">
+            <End Role="Chore" EntitySet="Chores" />
+            <End Role="ChoreLookUp" EntitySet="ChoreLookUps" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ChoreLook__KidId__145C0A3F" Association="Self.FK__ChoreLook__KidId__145C0A3F">
+            <End Role="Kid" EntitySet="Kids" />
+            <End Role="ChoreLookUp" EntitySet="ChoreLookUps" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ProjectChoresDBModelStoreContainer" CdmEntityContainer="ProjectChoresDBEntities">
+          <EntitySetMapping Name="Chores">
+            <EntityTypeMapping TypeName="ProjectChoresDBModel.Chore">
+              <MappingFragment StoreEntitySet="Chore">
+                <ScalarProperty Name="ChoreId" ColumnName="ChoreId" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ChoreLookUps">
+            <EntityTypeMapping TypeName="ProjectChoresDBModel.ChoreLookUp">
+              <MappingFragment StoreEntitySet="ChoreLookUp">
+                <ScalarProperty Name="ChoreLookUpId" ColumnName="ChoreLookUpId" />
+                <ScalarProperty Name="DateCompleted" ColumnName="DateCompleted" />
+                <ScalarProperty Name="DateAssigned" ColumnName="DateAssigned" />
+                <ScalarProperty Name="Active" ColumnName="Active" />
+                <ScalarProperty Name="KidId" ColumnName="KidId" />
+                <ScalarProperty Name="ChoreId" ColumnName="ChoreId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Kids">
+            <EntityTypeMapping TypeName="ProjectChoresDBModel.Kid">
+              <MappingFragment StoreEntitySet="Kid">
+                <ScalarProperty Name="KidId" ColumnName="KidId" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

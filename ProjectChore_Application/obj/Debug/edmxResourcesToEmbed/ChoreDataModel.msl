@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProjectChoresDBModelStoreContainer" CdmEntityContainer="ProjectChoresDBEntities">
+    <EntitySetMapping Name="Chores">
+      <EntityTypeMapping TypeName="ProjectChoresDBModel.Chore">
+        <MappingFragment StoreEntitySet="Chore">
+          <ScalarProperty Name="ChoreId" ColumnName="ChoreId" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChoreLookUps">
+      <EntityTypeMapping TypeName="ProjectChoresDBModel.ChoreLookUp">
+        <MappingFragment StoreEntitySet="ChoreLookUp">
+          <ScalarProperty Name="ChoreLookUpId" ColumnName="ChoreLookUpId" />
+          <ScalarProperty Name="DateCompleted" ColumnName="DateCompleted" />
+          <ScalarProperty Name="DateAssigned" ColumnName="DateAssigned" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+          <ScalarProperty Name="KidId" ColumnName="KidId" />
+          <ScalarProperty Name="ChoreId" ColumnName="ChoreId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kids">
+      <EntityTypeMapping TypeName="ProjectChoresDBModel.Kid">
+        <MappingFragment StoreEntitySet="Kid">
+          <ScalarProperty Name="KidId" ColumnName="KidId" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

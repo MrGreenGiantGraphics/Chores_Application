@@ -1,0 +1,57 @@
+﻿@model IEnumerable<ProjectChore_Application.ChoreLookUp>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DateCompleted)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateAssigned)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Active)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Chore.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Kid.FirstName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateCompleted)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateAssigned)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Active)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Chore.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Kid.FirstName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ChoreLookUpId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ChoreLookUpId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ChoreLookUpId })
+        </td>
+    </tr>
+}
+
+</table>
